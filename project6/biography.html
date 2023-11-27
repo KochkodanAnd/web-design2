@@ -1,151 +1,100 @@
 <!DOCTYPE html>
-<html lang="uk">
-
+<html lang="en">
 <head>
-
-<title> Biography </title>
-<meta charset="UTF-8">
-<style>
-  .pik{
-    color: rgb(215, 230, 10);
-    border: 2px solid black;
-    background-color: blue;
-    text-align: center;
-    display: block;
-    width: 200px;
-    margin-top: 10px;
-  
-  }
-  .pik:hover{
-color: rgb(55, 0, 255);
-background-color: magenta;
-  }
-.pik:active{
-background-color: yellow;
-color: blue;
-}
-#co{
-  background-color: rgb(6, 67, 250);
-  color: rgb(205, 255, 6);
-}
-#c{
-  background-color: darkred;
-  color: rgb(191, 255, 0);
-}
-#col{
-  background-color :black;
-  color: white;
-}
-#colo{
-  background-color: rgb(228, 248, 2);
-  color: black;
-}
-#color{
-  background-color: rgb(84, 2, 249);
-  color: rgb(255, 255, 255);
-}
-  #bio {
-    text-align: center;
-    fond-size: 22px;
-  }
-  #back {
-    fond-style: italic;
-  }
-  #page {
-      taxt-align: center;
-  }
-   .art{
-    fond-size: 120%;
-   }
-    h1{
-     fond-size: 144%;
-    }
-  #backto {
-  fond-weight: bold;
-  }
-  #up{
-    text-transform: uppercase;
-    
-</style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="biography.css">
 </head>
-
 <body>
-  <h1 id="bio"> Автобіографія Кочкодана Андрія Тарасовича </h1>
-<p><a href="index.html">Назад на головну</a></p>
+  <h1 id="header">Автобіографія Кочкодана Андрія Тарасовича </h1>
 
-<h3 id= " page">Зміст</h3>
+  <nav>
+    <a href="index.html">Назад на головну</a>
+  </nav>
 
-<ol id="backto"> 
-    <li><a href="#1.1">Базова інформація</a></li>
-    <li><a href="#1.2">Дитинство</a></li>
-    <li><a href="#1.3">Шкільні роки</a></li>
-    <li><a href="#1.4">Поза школою</a></li>
-    <li><a href="#1.5">Університет</a></li>
-    
-</ol>
-  
+  <h3 id="content">Зміст</h3>
+  <ul>
+    <li>
+      <a href="#basic-info">Базова інформація</a>
+    </li>
 
-<article class=" art">
+    <li>
+      <a href="#childhood">Дитинство</a>
+    </li>
 
-    <h2 id="1.1">Базова інформація</h2>
-    <p>
-         Кочкодан Андрій , зріст 180 см вага 75 кг .
-       Живу в 5 гуртожитку 706 А і в мене вкрали поличку.
-    </p>
-   
-      
-    <p><a href="#1">До змісту</a></p>
+    <li>
+      <a href="#school-years">Шкільні роки</a>
+    </li>
 
-</article>
+    <li>
+      <a href="#out-of-school">Поза школою</a>
+    </li>
 
-<article class=" art">
+    <li>
+      <a href="#university">Університет</a>
+    </li>
+  </ul>
 
-    <h2 id="1.2">Дитинство</h2>
-    <p>
-        Провів дитинство в селі Білявинці. В дитинстві мав свій власний ПК для навчання .
-        В якому навчився грати ігри і забув про навчання.
-    </p>
-    <p><a href="#1">До змісту</a></p>
-    
-</article>
+  <div class="container">
+    <div class="block col-lg-4 col-md-6 col-sm-12">
+      <article class="block-1">
+        <h2 id="basic-info">Базова інформація</h2>
+        <p>
+          Кочкодан Андрій , зріст 180 см вага 75 кг .
+          Живу в 5 гуртожитку 706 А і в мене вкрали поличку.
+        </p>
+      </article>
+      <a href="#content">До змісту</a>
+    </div>
 
-<article class=" art">
+    <div class="block col-lg-4 col-md-6 col-sm-12">
+      <article class="block-2">
+        <h2 id="childhood">Дитинство</h2>
+        <p>
+          Провів дитинство в селі Білявинці. В дитинстві мав свій власний ПК для навчання .
+          В якому навчився грати ігри і забув про навчання.
+        </p>
+      </article>
+      <a href="#content">До змісту</a>
+    </div>
 
-    <h2 id="1.3">Шкільні роки</h2>
-    <p>
-        Шкільне життя було захопливим: навчання, друзі, спорт. 
-        Вчився, розвивався і знаходив справжнє щастя у навчанні та спілкуванні.
-        А також школа дала мені різноманітність у моєму і так не легкому підлітковому житті.
-    </p>
-    <p><a href="#1">До змісту</a></p>
+    <div class="block col-lg-4 col-md-12 col-sm-12">
+      <article class="block-3">
+        <h2 id="school-years">Шкільні роки</h2>
+        <p>
+          Шкільне життя було захопливим: навчання, друзі, спорт. 
+          Вчився, розвивався і знаходив справжнє щастя у навчанні та спілкуванні.
+          А також школа дала мені різноманітність у моєму і так не легкому підлітковому житті.
+        </p>
+      </article>
+      <a href="#content">До змісту</a>
+    </div>
 
-    
-</article>
-        
-<article class=" art">
+    <div class="block col-lg-8 col-md-12 col-sm-12">
+      <article class="block-4">
+        <h2 id="out-of-school">Поза школою</h2>
+        <p>
+          Поза школою моє життя було різноманітним: спорт, музика, подорожі.
+          Відкривав нові хобі та зустрічав неймовірних людей.
+          А також займася ремонтом пк та скутерів ,адже неодноразово ремонтував свій скутер.
+        </p>
+      </article>
+      <a href="#content">До змісту</a>
+    </div>
 
-    <h2 id="1.4">Шкільні роки</h2>
-    Поза школою моє життя було різноманітним: спорт, музика, подорожі.
-    Відкривав нові хобі та зустрічав неймовірних людей.
-    А також займася ремонтом пк та скутерів ,адже неодноразово ремонтував свій скутер.
-    
-    <p><a href="#1">До змісту</a></p>
-    
-</article>
+    <div class="block col-lg-8 col-md-18 col-sm-12">
+      <article class="block-5">
+        <h2 id="university">Університет</h2>
+        <p>
+          Навчаюсь тут уже третій тиждень, поки все подобається.
+          Одногрупники круті, дружелюбні. Навчають мене тут тому, що мені потрібно.
+        </p>
+      </article>
+      <a href="#content">До змісту</a>
+    </div>
+  </div>
 
-<article class=" art">
-
-    <h2 id="1.5">Університет</h2>
-    <p>
-        Навчаюсь тут уже третій тиждень, поки все подобається.
-   Одногрупники круті, дружелюбні. Навчають мене тут тому, що мені потрібно.
-    </p>
-    <p><a href="#1">До змісту</a></p>
-    
-</article>
-<hr>
-<p><a id="up" href="#bio">Уверх</a></p>
-
+  <hr>
+  <p><a href="#header">Уверх</a></p>
 </body>
-
 </html>
